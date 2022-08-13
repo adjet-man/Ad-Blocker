@@ -1,2 +1,2 @@
 # Ad-blocker
-An adblocker called Hero(Manifest 3)
+An adblocker called Hero(Manifest v3)
