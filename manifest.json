@@ -1,0 +1,45 @@
+{
+
+"name" : "Hero Extension",
+"version": "1.0",
+"description": "Extension for Hero",
+
+"manifest_version": 3,
+
+"declarative_net_request": {
+  "rule_resources": [{
+    "id" : "ads",
+    "enabled": true,
+    "path":"ads.json"
+  }]
+},
+
+
+"permissions": [
+"declarativeNetRequest",
+"declarativeNetRequestFeedback"
+
+],
+
+"background":{
+    "service_worker": "background.js"
+},
+
+
+"action": { 
+    "default_title": "Adjetey's Adblocker", 
+    "default_icon": {
+        "16": "images/icons8-spartan-helmet-96.png",
+        "48": "images/icons8-spartan-helmet-96.png",
+        "128": "images/icons8-spartan-helmet-96.png"
+    }
+   
+},
+
+"icons": {
+    "16": "images/icons8-spartan-helmet-96.png",
+    "48": "images/icons8-spartan-helmet-96.png",
+    "128": "images/icons8-spartan-helmet-96.png"
+}
+
+}
